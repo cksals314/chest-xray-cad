@@ -1,0 +1,11 @@
+Model,Gamma,Fold,Best_Epoch,Best_Val_AUROC,Best_Val_AUPRC,Best_Val_ECE,Train_Images,Validation_Images,Train_Patients,Validation_Patients,Checkpoint,CLAHE
+densenet121,0.0,1,4,0.8195928588941818,0.21582120296050009,0.2357722215616053,69219,17305,22407,5601,checkpoints/training/densenet121/gamma_0/cv/fold_1/best_model.pth,False
+densenet121,0.0,2,5,0.828048864348801,0.229669724434209,0.2287345017182601,69219,17305,22406,5602,checkpoints/training/densenet121/gamma_0/cv/fold_2/best_model.pth,False
+densenet121,0.0,3,6,0.8158978636703598,0.199825195016172,0.21295268370171433,69219,17305,22406,5602,checkpoints/training/densenet121/gamma_0/cv/fold_3/best_model.pth,False
+densenet121,0.0,4,5,0.809770368108145,0.2290181206020477,0.2562132584527928,69219,17305,22406,5602,checkpoints/training/densenet121/gamma_0/cv/fold_4/best_model.pth,False
+densenet121,0.0,5,5,0.8229534650964955,0.22525592085669024,0.23943963404575733,69220,17304,22407,5601,checkpoints/training/densenet121/gamma_0/cv/fold_5/best_model.pth,False
+efficientnet_b0,0.0,1,4,0.8063546755508295,0.20394522885567593,0.24828898197785368,69219,17305,22407,5601,checkpoints/training/efficientnet_b0/gamma_0/cv_off_gpu0/fold_1/best_model.pth,False
+efficientnet_b0,0.0,2,4,0.8108766013861385,0.20255798962166766,0.2610324034006263,69219,17305,22406,5602,checkpoints/training/efficientnet_b0/gamma_0/cv_off_gpu0/fold_2/best_model.pth,False
+efficientnet_b0,0.0,3,4,0.8073202137718786,0.19007520892995042,0.25288070036750626,69219,17305,22406,5602,checkpoints/training/efficientnet_b0/gamma_0/cv_off_gpu0/fold_3/best_model.pth,False
+efficientnet_b0,0.0,4,3,0.7997723836397655,0.18544768844101517,0.2755972997500239,69219,17305,22406,5602,checkpoints/training/efficientnet_b0/gamma_0/cv_off_gpu1/fold_4/best_model.pth,False
+efficientnet_b0,0.0,5,4,0.8111566609333417,0.1990682347316152,0.24338375593430908,69220,17304,22407,5601,checkpoints/training/efficientnet_b0/gamma_0/cv_off_gpu1/fold_5/best_model.pth,False

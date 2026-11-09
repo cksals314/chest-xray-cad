@@ -1,0 +1,58 @@
+# Python environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Dataset (download separately; never commit image files)
+
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local archives and backups
+archive/
+*.tar.gz
+
+# Intermediate training checkpoints; keep only final_model.pth
+checkpoints/training/
+checkpoints/final/**/last_checkpoint.pth
+
+# Detailed intermediate training reports
+reports/training/
+
+# Keep compressed OOF aggregate files; do not commit uncompressed copies
+reports/oof/**/*.csv
+# Fold-level OOF exports are reproducible from Fold checkpoints and duplicate aggregates
+reports/oof/**/fold_*_oof.csv.gz
+
+
+# Full, redundant Test exports (the compact public artifact is tracked)
+reports/test_evaluation/test_predictions.csv
+reports/test_evaluation/test_predictions_with_metadata.csv
+reports/test_evaluation/test_predictions_with_metadata.csv.gz
+reports/test_evaluation/test_subgroup_metadata.csv
+/data
+/datasets
+
+# Exclude full per-image brightness exports; share only the sanitized candidate table.
+reports/brightness/brightness_stats.csv
+reports/brightness/brightness_stats.csv.gz
+reports/brightness/brightness_extremes_trainval.csv
+
+# Local temporary packages and backups
+/*.zip
+/*.tar
+/*.tar.gz

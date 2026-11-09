@@ -1,0 +1,6 @@
+Model,Gamma,Fold,Best_Epoch,Best_Val_AUROC,Best_Val_AUPRC,Best_Val_ECE,Train_Images,Validation_Images,Train_Patients,Validation_Patients,Checkpoint,CLAHE
+efficientnet_b0,0.0,1,4,0.8063546755508295,0.20394522885567593,0.24828898197785368,69219,17305,22407,5601,checkpoints/training/efficientnet_b0/gamma_0/cv_off_gpu0/fold_1/best_model.pth,False
+efficientnet_b0,0.0,2,4,0.8108766013861385,0.20255798962166766,0.2610324034006263,69219,17305,22406,5602,checkpoints/training/efficientnet_b0/gamma_0/cv_off_gpu0/fold_2/best_model.pth,False
+efficientnet_b0,0.0,3,4,0.8073202137718786,0.19007520892995042,0.25288070036750626,69219,17305,22406,5602,checkpoints/training/efficientnet_b0/gamma_0/cv_off_gpu0/fold_3/best_model.pth,False
+efficientnet_b0,0.0,4,3,0.7997723836397655,0.18544768844101517,0.2755972997500239,69219,17305,22406,5602,checkpoints/training/efficientnet_b0/gamma_0/cv_off_gpu1/fold_4/best_model.pth,False
+efficientnet_b0,0.0,5,4,0.8111566609333417,0.1990682347316152,0.24338375593430908,69220,17304,22407,5601,checkpoints/training/efficientnet_b0/gamma_0/cv_off_gpu1/fold_5/best_model.pth,False

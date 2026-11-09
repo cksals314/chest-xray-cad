@@ -1,0 +1,23 @@
+# Tested on Python 3.12.14 / Linux / CUDA 12.4.
+# The CUDA wheel index is provided as an extra index so PyPI remains available
+# for the remaining scientific Python packages.
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+# Deep learning (CUDA 12.4 build used in the experiments)
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+
+# Data processing
+numpy==2.5.4
+pandas==3.1.0
+Pillow==13.0.0
+
+# Image processing
+opencv-python-headless==5.0.0.93
+
+# Machine learning and metrics
+scikit-learn==1.9.1
+scipy==1.18.1
+
+# Utilities
+tqdm==4.70.1

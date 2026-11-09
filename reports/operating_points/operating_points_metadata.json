@@ -1,0 +1,23 @@
+{
+  "threshold_selection_dataset": "OOF predictions from 5-Fold Patient-wise GroupKFold",
+  "threshold_selection_rows": 86524,
+  "threshold_selection_patients": 28008,
+  "test_evaluation_dataset": "Official NIH ChestX-ray14 Test split",
+  "test_rows": 25596,
+  "test_patients": 2797,
+  "probability_method": "Per-disease Platt Scaling",
+  "models": [
+    "densenet121",
+    "efficientnet_b0",
+    "soft_voting_ensemble"
+  ],
+  "ensemble_rule": "Arithmetic mean of DenseNet121 and EfficientNet-B0 Platt probabilities",
+  "threshold_rule": {
+    "YoudenJ": "maximize sensitivity + specificity - 1; ties select the highest threshold",
+    "Sensitivity90": "highest threshold with OOF sensitivity >= 0.90",
+    "Specificity90": "lowest threshold with OOF specificity >= 0.90"
+  },
+  "prediction_rule": "positive if probability >= threshold",
+  "test_labels_used_for_threshold_selection": false,
+  "test_labels_opened_after_threshold_selection": true
+}

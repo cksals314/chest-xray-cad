@@ -1,0 +1,6 @@
+Fold,Train_Images,Validation_Images,Train_Patients,Validation_Patients,Patient_Overlap,Train_Image_Positive_Total,Validation_Image_Positive_Total
+1,69219,17305,22407,5601,0,43098,10872
+2,69219,17305,22406,5602,0,43032,10938
+3,69219,17305,22406,5602,0,43420,10550
+4,69219,17305,22406,5602,0,43220,10750
+5,69220,17304,22407,5601,0,43110,10860

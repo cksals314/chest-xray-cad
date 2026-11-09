@@ -1,0 +1,2 @@
+Model,N_OOF_Images,N_OOF_Patients,Temperature,OOF_Fit_NLL_Uncalibrated,OOF_Fit_NLL_Temperature,OOF_Fit_NLL_Platt_Macro
+efficientnet_b0,86524,28008,1.2291358369816356,0.4644687449156553,0.4595690745755043,0.13687957212397378

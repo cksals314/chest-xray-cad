@@ -1,0 +1,30 @@
+========== NIH ChestX-ray14 Data Quality Report ==========
+
+Status: PASS
+
+Metadata records: 112,120
+Image files: 112,120
+Train/Validation list: 86,524
+Test list: 25,596
+
+Total errors: 0
+Total warnings: 0
+
+Disease positive counts:
+Atelectasis: 11,535
+Cardiomegaly: 2,772
+Effusion: 13,307
+Infiltration: 19,870
+Mass: 5,746
+Nodule: 6,323
+Pneumonia: 1,353
+Pneumothorax: 5,298
+Consolidation: 4,667
+Edema: 2,303
+Emphysema: 2,516
+Fibrosis: 1,686
+Pleural_Thickening: 3,385
+Hernia: 227
+
+Issue categories:
+No issues found.

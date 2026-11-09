@@ -1,0 +1,6 @@
+Fold,Train_Images,Validation_Images,Train_Patients,Validation_Patients,Patient_Overlap_Count,Image_Overlap_Count,Train_Val_Partition_Check,Patient_Leakage_Check,Every_Image_Validation_Exactly_Once,Every_Patient_Validation_Exactly_Once,Overall_Integrity_Pass
+1,69219,17305,22407,5601,0,0,True,True,True,True,True
+2,69219,17305,22406,5602,0,0,True,True,True,True,True
+3,69219,17305,22406,5602,0,0,True,True,True,True,True
+4,69219,17305,22406,5602,0,0,True,True,True,True,True
+5,69220,17304,22407,5601,0,0,True,True,True,True,True

@@ -1,0 +1,6 @@
+Model,Gamma,Fold,Best_Epoch,Best_Val_AUROC,Best_Val_AUPRC,Best_Val_ECE,Train_Images,Validation_Images,Train_Patients,Validation_Patients,Checkpoint,CLAHE
+densenet121,0.0,1,4,0.8180873324590284,0.21750194731528874,0.23599246705867855,69219,17305,22407,5601,checkpoints/training/densenet121/gamma_0/cv_clahe/fold_1/best_model.pth,True
+densenet121,0.0,2,5,0.8225623298697753,0.21983031640192552,0.20650732798758428,69219,17305,22406,5602,checkpoints/training/densenet121/gamma_0/cv_clahe_gpu0/fold_2/best_model.pth,True
+densenet121,0.0,3,3,0.8130984207935236,0.19400291380768245,0.2766175750997267,69219,17305,22406,5602,checkpoints/training/densenet121/gamma_0/cv_clahe_gpu0/fold_3/best_model.pth,True
+densenet121,0.0,4,3,0.8059463024948252,0.20007573903780446,0.31299890426798804,69219,17305,22406,5602,checkpoints/training/densenet121/gamma_0/cv_clahe_gpu1/fold_4/best_model.pth,True
+densenet121,0.0,5,5,0.8186874961757568,0.21735748638696545,0.2549189668763194,69220,17304,22407,5601,checkpoints/training/densenet121/gamma_0/cv_clahe_gpu1/fold_5/best_model.pth,True

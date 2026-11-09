@@ -1,0 +1,112 @@
+{
+  "model": "efficientnet_b0",
+  "fit_method": "OOF calibration fit; final evaluation must use untouched official Test",
+  "oof_file": "reports/oof/efficientnet_b0/efficientnet_b0_oof.csv",
+  "n_oof_images": 86524,
+  "n_oof_patients": 28008,
+  "fold_counts": {
+    "1": 17305,
+    "2": 17305,
+    "3": 17305,
+    "4": 17305,
+    "5": 17304
+  },
+  "diseases": [
+    "Atelectasis",
+    "Cardiomegaly",
+    "Effusion",
+    "Infiltration",
+    "Mass",
+    "Nodule",
+    "Pneumonia",
+    "Pneumothorax",
+    "Consolidation",
+    "Edema",
+    "Emphysema",
+    "Fibrosis",
+    "Pleural_Thickening",
+    "Hernia"
+  ],
+  "temperature_scaling": {
+    "temperature": 1.2291358369816356,
+    "fit_nll_on_oof_not_unbiased_evaluation": 0.4595690745755043
+  },
+  "per_disease_platt": {
+    "Atelectasis": {
+      "slope": 0.839504411563848,
+      "intercept": -2.2650668784663934,
+      "fit_nll": 0.2639960989853228
+    },
+    "Cardiomegaly": {
+      "slope": 0.6691177762167904,
+      "intercept": -3.7550830192890876,
+      "fit_nll": 0.07094006226842743
+    },
+    "Effusion": {
+      "slope": 0.8683705052681848,
+      "intercept": -2.1448021081764757,
+      "fit_nll": 0.22761991797102915
+    },
+    "Infiltration": {
+      "slope": 0.824215713844505,
+      "intercept": -1.608420013753771,
+      "fit_nll": 0.4043886513838726
+    },
+    "Mass": {
+      "slope": 0.7814124265900555,
+      "intercept": -2.8025413583481966,
+      "fit_nll": 0.15632958301012206
+    },
+    "Nodule": {
+      "slope": 0.7703095310023187,
+      "intercept": -2.8431873415265088,
+      "fit_nll": 0.19359986613745134
+    },
+    "Pneumonia": {
+      "slope": 0.47990734739726404,
+      "intercept": -4.246481845437634,
+      "fit_nll": 0.05332572473771351
+    },
+    "Pneumothorax": {
+      "slope": 0.7014086297074079,
+      "intercept": -3.2595975359457863,
+      "fit_nll": 0.11118211387759469
+    },
+    "Consolidation": {
+      "slope": 0.7450349538962617,
+      "intercept": -3.215089863046761,
+      "fit_nll": 0.12715810697169522
+    },
+    "Edema": {
+      "slope": 0.6648138076176449,
+      "intercept": -3.9062099878441314,
+      "fit_nll": 0.06155314496377186
+    },
+    "Emphysema": {
+      "slope": 0.6331969164028274,
+      "intercept": -3.842257013069293,
+      "fit_nll": 0.06200033603188021
+    },
+    "Fibrosis": {
+      "slope": 0.6207722786756144,
+      "intercept": -4.131576558873577,
+      "fit_nll": 0.0673417536145694
+    },
+    "Pleural_Thickening": {
+      "slope": 0.7265059501614584,
+      "intercept": -3.4470467745838302,
+      "fit_nll": 0.10727006566385458
+    },
+    "Hernia": {
+      "slope": 0.4658032725747568,
+      "intercept": -5.226544920708675,
+      "fit_nll": 0.009608584118328376
+    }
+  },
+  "fit_nll_on_oof_not_unbiased_evaluation": {
+    "uncalibrated": 0.4644687449156553,
+    "temperature_scaling": 0.4595690745755043,
+    "per_disease_platt_macro": 0.13687957212397378
+  },
+  "warning": "OOF fit NLL is an optimization/training diagnostic, not an unbiased calibration score. Do not select or report calibration performance from this fit data; evaluate once on the untouched Test set."
+}

@@ -1,0 +1,21 @@
+{
+  "split_method": "sklearn.model_selection.GroupKFold",
+  "n_splits": 5,
+  "group_column": "Patient ID",
+  "official_source_list": "train_val_list_NIH.txt",
+  "test_list_used_for_split": false,
+  "n_train_val_images": 86524,
+  "n_train_val_patients": 28008,
+  "n_test_images_in_official_list": 25596,
+  "n_diseases": 14,
+  "no_finding_representation": "14 binary zeros",
+  "brightness_candidates_removed": 0,
+  "all_validation_images_exactly_once": true,
+  "all_validation_patients_exactly_once": true,
+  "output_split_directory": "splits",
+  "n_test_patients": 2797,
+  "trainval_test_patient_overlap": 0,
+  "split_integrity_verified": true,
+  "public_manifest_column_count": 16,
+  "public_manifest_metadata_removed": true
+}

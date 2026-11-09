@@ -1,0 +1,22 @@
+{
+  "model": "densenet121",
+  "gamma": 0.0,
+  "clahe": false,
+  "trainval_images": 86524,
+  "trainval_patients": 28008,
+  "mean_cv_best_epoch": 5.0,
+  "epoch_factor": 0.8,
+  "final_epochs": 4,
+  "batch_size": 32,
+  "batches_per_epoch": 2704,
+  "planned_optimizer_steps": 10816,
+  "completed_optimizer_steps_this_run": 10816,
+  "total_seconds_this_run": 617.7203996069729,
+  "device": "cuda:0",
+  "amp": true,
+  "cv_fold_metrics": "reports/training/densenet121/gamma_0/cv/fold_metrics.csv",
+  "checkpoint": "checkpoints/final/densenet121/gamma_0/final_off/final_model.pth",
+  "history": "logs/training_final/densenet121/final_off/history.csv",
+  "pos_weight_report": "reports/training_final/densenet121/final_off/pos_weight_trainval.csv",
+  "training_manifest": "splits/final_trainval.csv"
+}

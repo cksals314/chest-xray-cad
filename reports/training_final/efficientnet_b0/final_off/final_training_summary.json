@@ -1,0 +1,22 @@
+{
+  "model": "efficientnet_b0",
+  "gamma": 0.0,
+  "clahe": false,
+  "trainval_images": 86524,
+  "trainval_patients": 28008,
+  "mean_cv_best_epoch": 3.8,
+  "epoch_factor": 0.8,
+  "final_epochs": 3,
+  "batch_size": 32,
+  "batches_per_epoch": 2704,
+  "planned_optimizer_steps": 8112,
+  "completed_optimizer_steps_this_run": 8112,
+  "total_seconds_this_run": 307.2726268619299,
+  "device": "cuda:1",
+  "amp": true,
+  "cv_fold_metrics": "reports/training/efficientnet_b0/gamma_0/cv_off/fold_metrics.csv",
+  "checkpoint": "checkpoints/final/efficientnet_b0/gamma_0/final_off/final_model.pth",
+  "history": "logs/training_final/efficientnet_b0/final_off/history.csv",
+  "pos_weight_report": "reports/training_final/efficientnet_b0/final_off/pos_weight_trainval.csv",
+  "training_manifest": "splits/final_trainval.csv"
+}
