@@ -1,7 +1,5 @@
 # CXR-CAD Experiment Report
 
-**Scope:** Data preprocessing, model training, calibration, ensemble evaluation, disease-wise analysis, and operating-point analysis. Grad-CAM and other explainability visualizations are outside this report and are handled by another contributor.
-
 ## 1. Objective
 
 The objective was to build and evaluate a 14-label multi-label classifier for frontal chest X-ray images from NIH ChestX-ray14. Two ImageNet-pretrained CNN backbones, DenseNet121 and EfficientNet-B0, were trained and compared. The selected models were calibrated using out-of-fold predictions, combined using soft voting, and evaluated on the official NIH Test split. Disease-specific operating thresholds were selected from OOF data and then evaluated on Test data without using Test labels for threshold selection.
